@@ -4,49 +4,39 @@
     padding: 0;
 }
 
-header {
-    background-image: url('../assets/images/beachshowcase.jpg');
+.header {
+    background-image: url("../images/beachshowcase.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-}
-
-.article-header {
-    font-size: 0;
+    min-height: 100vh;
+    padding: 40vh 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    
+    color: #926239;
 }
 
-h1 {
+.header-h1 {
     font-size: 50px;
     line-height: 1.2;
     font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #926239;
-
 }
 
 .p-header {
     font-size: 20px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 1.6;
-    color: #926239;
     margin-bottom: 25px;
 }
 
 .a-header {
+    display: inline-block;
     font-size: 18px;
     text-decoration: none;
-    color: #926239;
-    border: #926239 1px solid;
+    border: 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
-    margin-top: 20px;
     line-height: 1.6;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #926239;
 }
 
 .a-header:hover {
@@ -54,45 +44,29 @@ h1 {
     background-color: #926239;
 }
 
-.first-content {
+.content {
     text-align: center;
     padding: 20px;
-    background: #926239;
-    color: #fff;
-}
-
-.main-p {
-    font-size: 17px;
-    line-height: 1.6;
-}
-
-.second-content {
-    text-align: center;
-    padding: 20px;
-    color: #926239;
-}
-
-.last-content {
-    font-size: 17px;
-    line-height: 1.6;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text-content {
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 .last-main-p {
     display: inline-block;
     width: 33%;
+}
+
+.color-approach {
     background-color: #926239;
-    text-align: center;
-    padding: 20px;
     color: #fff;
 }
 
-.last-main-p-white {
-    display: inline-block;
-    width: 33%;
-    text-align: center;
+.color-content {
     color: #926239;
-    padding: 20px;
 }
 
 
