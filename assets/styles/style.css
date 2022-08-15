@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(images/beachshowcase.jpg);
+    background-image: url('../assets/images/beachshowcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
