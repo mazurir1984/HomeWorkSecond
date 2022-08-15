@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .header {
     background-image: url("../images/beachshowcase.jpg");
     background-repeat: no-repeat;
@@ -11,7 +15,6 @@
     background-position: center;
     min-height: 100vh;
     padding: 40vh 0;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     color: #926239;
 }
@@ -47,17 +50,11 @@
 .content {
     text-align: center;
     padding: 20px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .text-content {
     font-size: 17px;
     line-height: 1.6;
-}
-
-.last-main-p {
-    display: inline-block;
-    width: 33%;
 }
 
 .color-approach {
@@ -67,6 +64,11 @@
 
 .color-content {
     color: #926239;
+}
+
+.small-content {
+    display: inline-block;
+    width: 33%;
 }
 
 
